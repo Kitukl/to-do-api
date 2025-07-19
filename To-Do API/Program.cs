@@ -1,7 +1,18 @@
+using BLL.Mapping;
+using DLA.Repositories.Contracts;
+using DLA.Repositories.Realization;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddAutoMapper(cfg => { }, typeof(TaskProfile));
+builder.Services.AddMediatR(configuration =>
+{
+    configuration.RegisterServicesFromAssemblies(typeof(Program).Assembly);
+});
+
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>

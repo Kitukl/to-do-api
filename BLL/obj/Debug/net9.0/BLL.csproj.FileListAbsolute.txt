@@ -1,0 +1,16 @@
+/Users/kituk/RiderProjects/To-Do/BLL/bin/Debug/net9.0/BLL.deps.json
+/Users/kituk/RiderProjects/To-Do/BLL/bin/Debug/net9.0/BLL.dll
+/Users/kituk/RiderProjects/To-Do/BLL/bin/Debug/net9.0/BLL.pdb
+/Users/kituk/RiderProjects/To-Do/BLL/bin/Debug/net9.0/DLA.dll
+/Users/kituk/RiderProjects/To-Do/BLL/bin/Debug/net9.0/DLA.pdb
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.csproj.AssemblyReference.cache
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.AssemblyInfoInputs.cache
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.AssemblyInfo.cs
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.csproj.CoreCompileInputs.cache
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.sourcelink.json
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.csproj.Up2Date
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.dll
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/refint/BLL.dll
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/BLL.pdb
+/Users/kituk/RiderProjects/To-Do/BLL/obj/Debug/net9.0/ref/BLL.dll

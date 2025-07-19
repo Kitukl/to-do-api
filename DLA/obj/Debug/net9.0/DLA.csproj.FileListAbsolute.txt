@@ -1,0 +1,13 @@
+/Users/kituk/RiderProjects/To-Do/DLA/bin/Debug/net9.0/DLA.deps.json
+/Users/kituk/RiderProjects/To-Do/DLA/bin/Debug/net9.0/DLA.dll
+/Users/kituk/RiderProjects/To-Do/DLA/bin/Debug/net9.0/DLA.pdb
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.csproj.AssemblyReference.cache
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.AssemblyInfoInputs.cache
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.AssemblyInfo.cs
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.csproj.CoreCompileInputs.cache
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.sourcelink.json
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.dll
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/refint/DLA.dll
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.pdb
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/ref/DLA.dll
