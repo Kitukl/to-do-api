@@ -33,16 +33,18 @@ public class TaskController : ControllerBase
         return Ok(tasks);
     }
 
-    [HttpDelete("delete")]
-    public async Task<ActionResult<Guid>> Delete(DeleteTask command)
+    [HttpDelete("delete/{id}")]
+    public async Task<ActionResult<Guid>> Delete(Guid id)
     {
-        var id = await _sender.Send(command);
-        return Ok(id);
+        var command = new DeleteTask(id);
+        var res_id = await _sender.Send(command);
+        return Ok(res_id);
     }
     
-    [HttpPut("update")]
-    public async Task<ActionResult<Guid>> Update(UpdateTask command)
-    {
+    [HttpPut("update/{id}")]
+    public async Task<ActionResult<Guid>> Update(Guid id, [FromBody] UpdateTaskDTO taskDto)
+    { 
+        var command = new UpdateTask(id, taskDto.Title, taskDto.Description, taskDto.Status, taskDto.Date);
         var title = await _sender.Send(command);
         return Ok(title);
     }
