@@ -25,6 +25,7 @@ public class TaskRepository : ITaskRepository
             Date = date
         };
         await _context.Tasks.AddAsync(task);
+        await _context.SaveChangesAsync();
     }
 
     public async Task Change(Guid id, string title, string description, string status, DateTime date)

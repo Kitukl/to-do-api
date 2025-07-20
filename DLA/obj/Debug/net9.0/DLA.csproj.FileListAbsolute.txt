@@ -11,3 +11,5 @@
 /Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/refint/DLA.dll
 /Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.pdb
 /Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/ref/DLA.dll
+/Users/kituk/RiderProjects/To-Do/DLA/bin/Debug/net9.0/DLA.runtimeconfig.json
+/Users/kituk/RiderProjects/To-Do/DLA/obj/Debug/net9.0/DLA.genruntimeconfig.cache
