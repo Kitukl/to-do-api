@@ -14,7 +14,7 @@ public class TaskRepository : ITaskRepository
         _context = context;
     }
     
-    public async Task Add(Guid id, string title, string description, string status, DateTime date)
+    public async Task Create(Guid id, string title, string description, string status, DateTime date)
     {
         var task = new TaskEntity()
         {

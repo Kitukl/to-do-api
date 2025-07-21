@@ -24,7 +24,7 @@ public class CreateTaskHandler : IRequestHandler<CreateTask, string>
             throw new Exception("Invalid date");
         }
         
-        await _repository.Add(request.id, request.title, request.description, request.status, request.date);
+        await _repository.Create(request.id, request.title, request.description, request.status, request.date);
         return request.title;
     }
 }
