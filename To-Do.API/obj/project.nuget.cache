@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "18ZqeSqLgEg=",
+  "dgSpecHash": "JrvfB8O57Vo=",
   "success": true,
   "projectFilePath": "/Users/kituk/RiderProjects/To-Do/To-Do.API/To-Do.API.csproj",
   "expectedPackageFiles": [
     "/Users/kituk/.nuget/packages/automapper/15.0.1/automapper.15.0.1.nupkg.sha512",
     "/Users/kituk/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/kituk/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/Users/kituk/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/Users/kituk/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/Users/kituk/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.0.0/fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
     "/Users/kituk/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/kituk/.nuget/packages/mediatr/13.0.0/mediatr.13.0.0.nupkg.sha512",
     "/Users/kituk/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",

@@ -8,36 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="913d703c-1c08-4994-92ff-aad90e223dae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BLL/DTOs/UpdateTaskDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/bin/Debug/net9.0/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/bin/Debug/net9.0/BLL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/bin/Debug/net9.0/BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/bin/Debug/net9.0/BLL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/BLL.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/ref/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/ref/BLL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/refint/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BLL/obj/Debug/net9.0/refint/BLL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.To-Do API.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.To-Do API.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/Controllers/TaskController/TaskConroller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/Controllers/TaskController/TaskConroller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/BLL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/BLL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/To-Do.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/To-Do.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/To-Do.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/bin/Debug/net9.0/To-Do.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/To-Do.API.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/ref/To-Do.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/ref/To-Do.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/refint/To-Do.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/refint/To-Do.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/../To-Do.API/obj/Debug/net9.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-    </list>
+    <list default="true" id="913d703c-1c08-4994-92ff-aad90e223dae" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

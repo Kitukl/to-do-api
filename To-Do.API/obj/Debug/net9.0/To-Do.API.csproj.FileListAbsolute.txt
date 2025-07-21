@@ -176,3 +176,6 @@
 /Users/kituk/RiderProjects/To-Do/To-Do.API/obj/Debug/net9.0/To-Do.API.pdb
 /Users/kituk/RiderProjects/To-Do/To-Do.API/obj/Debug/net9.0/To-Do.API.genruntimeconfig.cache
 /Users/kituk/RiderProjects/To-Do/To-Do.API/obj/Debug/net9.0/ref/To-Do.API.dll
+/Users/kituk/RiderProjects/To-Do/To-Do.API/bin/Debug/net9.0/FluentValidation.dll
+/Users/kituk/RiderProjects/To-Do/To-Do.API/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+/Users/kituk/RiderProjects/To-Do/To-Do.API/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
