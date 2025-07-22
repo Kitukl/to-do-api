@@ -21,7 +21,7 @@ public class CreateTaskHandler : IRequestHandler<CreateTask, string>
         
         if (!validation.IsValid)
         {
-            throw new Exception("Invalid date");
+            throw new ValidationException(validation.Errors);
         }
         
         await _repository.Create(request.id, request.title, request.description, request.status, request.date);

@@ -22,7 +22,7 @@ public class UpdateTaskHandler : IRequestHandler<UpdateTask, string>
 
         if (!validation.IsValid)
         {
-            throw new Exception("Invalid data");
+            throw new ValidationException(validation.Errors);
         }
         
         await _repository.Change(request.id, request.title, request.description, request.status, request.date);

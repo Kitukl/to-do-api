@@ -5,13 +5,14 @@ using FluentValidation.AspNetCore;
 using DLA.Data;
 using DLA.Repositories.Contracts;
 using DLA.Repositories.Realization;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers()
-    .AddFluentValidation(fv =>
-        fv.RegisterValidatorsFromAssemblyContaining<CreateTaskValidator>());
+builder.Services.AddControllers();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateTaskValidator>();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddAutoMapper(cfg => { }, typeof(TaskProfile));

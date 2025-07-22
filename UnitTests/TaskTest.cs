@@ -4,7 +4,6 @@ using BLL.Commands.Task.Update;
 using BLL.Validations;
 using DLA.Repositories.Contracts;
 using Moq;
-using Xunit;
 
 public class TaskTests
 {
@@ -18,7 +17,7 @@ public class TaskTests
 
         var handler = new CreateTaskHandler(mockRepo.Object, validator);
         
-        await Assert.ThrowsAsync<Exception>(async () =>
+        await Assert.ThrowsAsync<FluentValidation.ValidationException>(async () =>
             await handler.Handle(request, CancellationToken.None)
         );
 
