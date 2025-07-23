@@ -19,21 +19,21 @@ public class TaskController : ControllerBase
         _sender = sender;
     }
 
-    [HttpPost("create")]
+    [HttpPost]
     public async Task<ActionResult<string>> CreateTask(CreateTask command)
     {
         var title = await _sender.Send(command);
         return Ok(title);
     }
 
-    [HttpGet("tasks")]
+    [HttpGet]
     public async Task<ActionResult<List<TaskDTOs>>> GetAll()
     {
         var tasks = await _sender.Send(new GetAllTask());
         return Ok(tasks);
     }
 
-    [HttpDelete("delete/{id}")]
+    [HttpDelete("{id}")]
     public async Task<ActionResult<Guid>> Delete(Guid id)
     {
         var command = new DeleteTask(id);
@@ -41,7 +41,7 @@ public class TaskController : ControllerBase
         return Ok(res_id);
     }
     
-    [HttpPut("update/{id}")]
+    [HttpPut("{id}")]
     public async Task<ActionResult<Guid>> Update(Guid id, [FromBody] UpdateTaskDTO taskDto)
     { 
         var command = new UpdateTask(id, taskDto.Title, taskDto.Description, taskDto.Status, taskDto.Date);
